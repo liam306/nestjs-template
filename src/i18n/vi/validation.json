@@ -1,0 +1,11 @@
+{
+  "required": "Trường {field} là bắt buộc",
+  "minLength": "Trường {field} phải có ít nhất {min} ký tự",
+  "maxLength": "Trường {field} không được vượt quá {max} ký tự",
+  "invalidEmail": "Email không hợp lệ",
+  "invalidFormat": "Định dạng không hợp lệ",
+  "mustBeString": "Trường {field} phải là chuỗi",
+  "mustBeNumber": "Trường {field} phải là số",
+  "mustBeBoolean": "Trường {field} phải là giá trị boolean",
+  "fieldExisted": "{field} đã tồn tại"
+}

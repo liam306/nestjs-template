@@ -1,0 +1,11 @@
+{
+  "required": "Field {field} is required",
+  "minLength": "Field {field} must be at least {min} characters",
+  "maxLength": "Field {field} must not exceed {max} characters",
+  "invalidEmail": "Invalid email",
+  "invalidFormat": "Invalid format",
+  "mustBeString": "Field {field} must be a string",
+  "mustBeNumber": "Field {field} must be a number",
+  "mustBeBoolean": "Field {field} must be a boolean",
+  "fieldExisted": "{field} already exists"
+}

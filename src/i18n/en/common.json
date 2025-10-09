@@ -1,0 +1,10 @@
+{
+  "success": "Success",
+  "error": "Error",
+  "notFound": "Not found",
+  "badRequest": "Bad request",
+  "internalError": "Internal server error",
+  "created": "Created successfully",
+  "updated": "Updated successfully",
+  "deleted": "Deleted successfully"
+}
