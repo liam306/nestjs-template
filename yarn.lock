@@ -1843,10 +1843,19 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
-"@ptc-org/nestjs-query-core@9.2.1", "@ptc-org/nestjs-query-core@^9.1.0":
+"@ptc-org/nestjs-query-core@9.2.1":
   version "9.2.1"
   resolved "https://registry.yarnpkg.com/@ptc-org/nestjs-query-core/-/nestjs-query-core-9.2.1.tgz#a5298d727143d4508f550c04e5aa0ac63f127852"
   integrity sha512-j/DDtk5RK6DprpqmVfPR8+UoAfyw5PEqol3Fd5RwU+8uHG0hXSNS2iMhcaYNVbth4sZdGR5WfWKfHgHQhBxNQA==
+  dependencies:
+    lodash.merge "^4.6.2"
+    reflect-metadata "^0.2.2"
+    tslib "^2.8.1"
+
+"@ptc-org/nestjs-query-core@^9.3.0":
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/@ptc-org/nestjs-query-core/-/nestjs-query-core-9.3.0.tgz#742a42715f17c227ad1833f1e67b3debd425ec90"
+  integrity sha512-iKtOoHeNUlTPA9LrwFWeGNxNOxsvqDTCEjOwdFOWcIvQXlk3rZ7fSAi75zeejAfAiDJjugD0ds6RcSYPg4v++Q==
   dependencies:
     lodash.merge "^4.6.2"
     reflect-metadata "^0.2.2"

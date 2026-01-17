@@ -32,7 +32,7 @@
     "@nestjs/platform-express": "^11.1.12",
     "@nestjs/swagger": "^11.2.1",
     "@nestjs/typeorm": "^11.0.0",
-    "@ptc-org/nestjs-query-core": "^9.1.0",
+    "@ptc-org/nestjs-query-core": "^9.3.0",
     "@ptc-org/nestjs-query-graphql": "^9.2.1",
     "@ptc-org/nestjs-query-typeorm": "^9.2.1",
     "@sentry/cli": "^2.56.1",
