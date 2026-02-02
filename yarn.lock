@@ -1999,15 +1999,6 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
-"@ptc-org/nestjs-query-core@9.3.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@ptc-org/nestjs-query-core/-/nestjs-query-core-9.3.0.tgz#742a42715f17c227ad1833f1e67b3debd425ec90"
-  integrity sha512-iKtOoHeNUlTPA9LrwFWeGNxNOxsvqDTCEjOwdFOWcIvQXlk3rZ7fSAi75zeejAfAiDJjugD0ds6RcSYPg4v++Q==
-  dependencies:
-    lodash.merge "^4.6.2"
-    reflect-metadata "^0.2.2"
-    tslib "^2.8.1"
-
 "@ptc-org/nestjs-query-core@9.4.0", "@ptc-org/nestjs-query-core@^9.1.0":
   version "9.4.0"
   resolved "https://registry.yarnpkg.com/@ptc-org/nestjs-query-core/-/nestjs-query-core-9.4.0.tgz#47dc87e4e48cf66c54d500ef8f4411a8417dadd9"
@@ -2017,12 +2008,12 @@
     reflect-metadata "^0.2.2"
     tslib "^2.8.1"
 
-"@ptc-org/nestjs-query-graphql@^9.3.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@ptc-org/nestjs-query-graphql/-/nestjs-query-graphql-9.3.0.tgz#203fc46903524ad3bc723ee5768da300f52a7eeb"
-  integrity sha512-FdMO0a9HharFMjWl2B6ijUg4YB5vBXzFsc7z2Lp0k3e/7K/CRT5zj5LloaGDMOGE5jMqXwFRJtIaIG2mX75ZlA==
+"@ptc-org/nestjs-query-graphql@^9.4.0":
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/@ptc-org/nestjs-query-graphql/-/nestjs-query-graphql-9.4.0.tgz#82da3e584e8df227f210154655c4ace4aaace4c9"
+  integrity sha512-kvq9hI6Kt5YEAevzyIIWJNT+S2qY8LSqNhwknyla7mkHCW65HUI5cwu+8IxTFEWIAj4wBLEnicFpf8F1SLqt4w==
   dependencies:
-    "@ptc-org/nestjs-query-core" "9.3.0"
+    "@ptc-org/nestjs-query-core" "9.4.0"
     dataloader "^2.2.3"
     graphql-fields "^2.0.3"
     lodash.merge "4.6.2"
