@@ -30,7 +30,7 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/passport": "^11.0.5",
     "@nestjs/platform-express": "^11.1.13",
-    "@nestjs/swagger": "^11.2.5",
+    "@nestjs/swagger": "^11.2.6",
     "@nestjs/typeorm": "^11.0.0",
     "@ptc-org/nestjs-query-core": "^9.1.0",
     "@ptc-org/nestjs-query-graphql": "^9.4.0",
