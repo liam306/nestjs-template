@@ -22,21 +22,21 @@
   "dependencies": {
     "@apollo/server": "^4.12.2",
     "@nestjs/apollo": "^13.1.0",
-    "@nestjs/common": "^11.1.16",
+    "@nestjs/common": "^11.1.17",
     "@nestjs/config": "^4.0.3",
-    "@nestjs/core": "^11.1.16",
+    "@nestjs/core": "^11.1.17",
     "@nestjs/graphql": "^13.2.4",
     "@nestjs/jwt": "^11.0.2",
     "@nestjs/mapped-types": "*",
     "@nestjs/passport": "^11.0.5",
-    "@nestjs/platform-express": "^11.1.16",
+    "@nestjs/platform-express": "^11.1.17",
     "@nestjs/swagger": "^11.2.6",
     "@nestjs/typeorm": "^11.0.0",
     "@ptc-org/nestjs-query-core": "^9.1.0",
     "@ptc-org/nestjs-query-graphql": "^9.4.0",
     "@ptc-org/nestjs-query-typeorm": "^9.4.0",
     "@sentry/cli": "^3.3.3",
-    "@sentry/nestjs": "^10.43.0",
+    "@sentry/nestjs": "^10.45.0",
     "bcryptjs": "^3.0.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.4",
@@ -61,7 +61,7 @@
     "@eslint/js": "^10.0.1",
     "@nestjs/cli": "^11.0.16",
     "@nestjs/schematics": "^11.0.9",
-    "@nestjs/testing": "^11.1.16",
+    "@nestjs/testing": "^11.1.17",
     "@swc/cli": "^0.8.0",
     "@swc/core": "^1.15.18",
     "@types/compression": "^1.8.1",
@@ -85,7 +85,7 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.57.0"
+    "typescript-eslint": "^8.57.1"
   },
   "jest": {
     "moduleFileExtensions": [
