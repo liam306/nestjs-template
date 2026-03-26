@@ -2013,64 +2013,64 @@
   resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.4.0.tgz#3bbb984085dbd6d982494538b523be1ce6562972"
   integrity sha512-xxeapPiUXdZAE3che6f3xogoJPeZgig6omHEy1rIY5WVsB3H2BHNnZH+gHG6x91SCWyQCzWGsuL2Hh3ClO5/qQ==
 
-"@sentry/cli-darwin@3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/cli-darwin/-/cli-darwin-3.3.3.tgz#4c821c8d4b676a0159307341941453ba1eb8ecec"
-  integrity sha512-P8DoL79eX5fhKCfBHHl7xwwTShDPOb2drJC8lizZ3v1iS1JLPrNweM1KEzDefR30zH1wghbLSwsYv/svWdM3wA==
+"@sentry/cli-darwin@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-darwin/-/cli-darwin-3.3.4.tgz#5487af4c72f93d8852bf391ede0b6bcc95d37d5e"
+  integrity sha512-1cFHgwJq0yJ4lAvxQISag2R5R/wRtY7e4YX54Da4n+Isw1WHdF2CLmdT0ufOyT04iiF406UD2d7qsPEVDniAmw==
 
-"@sentry/cli-linux-arm64@3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-arm64/-/cli-linux-arm64-3.3.3.tgz#e49fcee71911fee0cc2fd7ea4ebde20fc3bbec94"
-  integrity sha512-9jaX9RGyTpjo9u2urNi5ciBDpRdTt107YJpFXev+BFHJ6Lwz/owgRuYzPRfAen8hKkOOFheZ3iy07kl576eZzw==
+"@sentry/cli-linux-arm64@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-arm64/-/cli-linux-arm64-3.3.4.tgz#ee19d1d31fae7c81db092c296e8dbcf4cffbb37e"
+  integrity sha512-SD9YQjUPXjIBkt4q41lHMopeL9lKskaxc7qpt1ZuQpoHOszDOUNP3WPvxpeiaMjFMmgMkGojyDBk2XY9eyfGNQ==
 
-"@sentry/cli-linux-arm@3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-arm/-/cli-linux-arm-3.3.3.tgz#6d7e466aa6286d988bb50a5d07540bc2a7e28ea8"
-  integrity sha512-a7o/huozveLIImXHe0HDwEMVhvDopOP2tLcopvV7sQsVE8f/QOShR5FudKjmiaZz2opdLzPJO9pv5WuF9jAZPg==
+"@sentry/cli-linux-arm@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-arm/-/cli-linux-arm-3.3.4.tgz#cd4292821ccb052c70e6d7cb813fda2500633e56"
+  integrity sha512-8XDDmUZ/4X7Dw2hoSU6T9tpD8qMwtVKHYLQjcY+xNBQujPrSq+YCrNXK/iIN9UgX8Rza2q4IftsIkJADOxLFow==
 
-"@sentry/cli-linux-i686@3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-i686/-/cli-linux-i686-3.3.3.tgz#bd1206cc17223a92dde2ae616a7641f526c444dd"
-  integrity sha512-VngQYzR2kDm2oojCuYF20ebLTK8HKvEwxe785J6gxob8Ef9JvZkERyUqENYppBa9aVgN0pandqPAqOECWykTMA==
+"@sentry/cli-linux-i686@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-i686/-/cli-linux-i686-3.3.4.tgz#2ee01a59e85538b1d3adf7940d55434f86e2b78c"
+  integrity sha512-LNQlRDPrHLTDgxxJsAzT+1+sJ8Kv/Lq8E4Ob8RjqkwuZxl/wR6QJ4O83cxYGJPPnmjEAT+lOUQt1pTPXAwIwLQ==
 
-"@sentry/cli-linux-x64@3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-x64/-/cli-linux-x64-3.3.3.tgz#6d189a7b8c1a9b826948112cc837349b625b47a0"
-  integrity sha512-rBxXQeIYGefUNI2cXHxEr0y3bhxDQjOD4G6j/gqLz/Dj+l8gJ/iKP64kTudnoViNIpn0pdYccG69th7zmzM/Fg==
+"@sentry/cli-linux-x64@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-x64/-/cli-linux-x64-3.3.4.tgz#3bed474f4ab7f588decc163bfeb0f2433238c9e7"
+  integrity sha512-yEOVI4a0RTBYcHJBEaiFU2s4GzcfkXDToMUeLlUg4B3Bgz8AX76163RTEJH5dKavKkoMLKzOrKgVylXPxo1JLQ==
 
-"@sentry/cli-win32-arm64@3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-arm64/-/cli-win32-arm64-3.3.3.tgz#b67fa46b942ed6289404526d3175268b6babdd18"
-  integrity sha512-c52g+YS6BO0rzH8AEHqQPmpqZrw0GJjMWqy0tQ5jcqaGdaLVnxk0mMEubv8R6Dv5MR2LShoKjiNsaeVfrWIMUg==
+"@sentry/cli-win32-arm64@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-arm64/-/cli-win32-arm64-3.3.4.tgz#19f50038efe9e4b42c51e065545ebfc9b5c92bd6"
+  integrity sha512-aLGgnIf7FHK+yRsemXGQ1yF0Q4R3D/jwCf/20k1miUgFP9fn5mZt+fArGDHr5k3vFfh3bUTf22Ga4CUwXqwkvQ==
 
-"@sentry/cli-win32-i686@3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-i686/-/cli-win32-i686-3.3.3.tgz#68cda8186ea3b53857063dd79aeccb8a21057377"
-  integrity sha512-DygYzSY/+tS7oFj/mfeg/yzYxsQx3fO8cI+IWc2pns/at+JcJ9O5xyM/x/q55wOxpnwla7RL1D3rsqK2mqkYfg==
+"@sentry/cli-win32-i686@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-i686/-/cli-win32-i686-3.3.4.tgz#ee117e5ab4bab0abe9a59297530fa144fcf32130"
+  integrity sha512-mLD5NpgI3G3+f1iBWGqTTC1kvdQ0CzmkvM9aIRiXUYWXZiaZVd4YuqhoDvTU6zNFEUXI+9jUEp84VF171B0Pqg==
 
-"@sentry/cli-win32-x64@3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-x64/-/cli-win32-x64-3.3.3.tgz#6e445d062910ae6a8ab3e6b08929a0c0de21a991"
-  integrity sha512-i0glPcHwkqbVA2Y+0Yz7CD/l8TSkfft1a+lTU9yk/+DDU8WGkyArEAxAji9bGo4p+k5HIFC8OC2MwpKdcdFM4Q==
+"@sentry/cli-win32-x64@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-x64/-/cli-win32-x64-3.3.4.tgz#0e04d5261d1022cb292a8160929592437d2caa9a"
+  integrity sha512-dNWifGo3VLx7n3N3/m+7+rLGNZEb7JmnLwLLAHoz11DneCa6OTBSMCKFABArxqLinlzTbiSOYc8QbvCTcLk5FA==
 
-"@sentry/cli@^3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@sentry/cli/-/cli-3.3.3.tgz#e5aed3ef88b6681647d84690727f6908cc8f6378"
-  integrity sha512-4CZtfgiOraX+BntMjYQhfLDArXwpqt3sEo5Zdj2pqWSZSd4yI3ncfQ21CsxLcI/sUQrjmD5Vzidu4/1OShyxtA==
+"@sentry/cli@^3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@sentry/cli/-/cli-3.3.4.tgz#153e464c6303f3e27ccf042da09dfecbe82ffc93"
+  integrity sha512-r97H1GTdaRs1qhTvbzyomclPesrt4vpjY2W7KGtgSOa5ynQsXKajsM5oJOtNW99O1pNNMZFlR1mmGDMHOxYm4g==
   dependencies:
     progress "^2.0.3"
     proxy-from-env "^1.1.0"
     undici "^6.22.0"
     which "^2.0.2"
   optionalDependencies:
-    "@sentry/cli-darwin" "3.3.3"
-    "@sentry/cli-linux-arm" "3.3.3"
-    "@sentry/cli-linux-arm64" "3.3.3"
-    "@sentry/cli-linux-i686" "3.3.3"
-    "@sentry/cli-linux-x64" "3.3.3"
-    "@sentry/cli-win32-arm64" "3.3.3"
-    "@sentry/cli-win32-i686" "3.3.3"
-    "@sentry/cli-win32-x64" "3.3.3"
+    "@sentry/cli-darwin" "3.3.4"
+    "@sentry/cli-linux-arm" "3.3.4"
+    "@sentry/cli-linux-arm64" "3.3.4"
+    "@sentry/cli-linux-i686" "3.3.4"
+    "@sentry/cli-linux-x64" "3.3.4"
+    "@sentry/cli-win32-arm64" "3.3.4"
+    "@sentry/cli-win32-i686" "3.3.4"
+    "@sentry/cli-win32-x64" "3.3.4"
 
 "@sentry/core@10.45.0":
   version "10.45.0"
