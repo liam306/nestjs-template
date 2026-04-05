@@ -14,11 +14,13 @@ export class S3Service {
   private readonly s3Client: S3Client;
   private readonly bucketName: string;
   private readonly region: string;
+  private readonly customDomain?: string;
 
   constructor(private readonly configService: ConfigService) {
     const config = this.configService.config;
     this.region = config.get('AWS_S3_REGION')!;
     this.bucketName = config.get('AWS_S3_BUCKET_NAME')!;
+    this.customDomain = config.get('AWS_S3_CUSTOM_DOMAIN');
 
     this.s3Client = new S3Client({
       region: this.region,
@@ -27,6 +29,16 @@ export class S3Service {
         secretAccessKey: config.get('AWS_S3_SECRET_ACCESS_KEY')!,
       },
     });
+  }
+
+  /**
+   * Generates the public URL for an S3 object.
+   */
+  private getFileUrl(key: string): string {
+    if (this.customDomain) {
+      return `https://${this.customDomain}/${key}`;
+    }
+    return `https://s3.${this.region}.amazonaws.com/${this.bucketName}/${key}`;
   }
 
   /**
@@ -61,7 +73,7 @@ export class S3Service {
 
       await upload.done();
 
-      const url = `https://s3.${this.region}.amazonaws.com/${this.bucketName}/${key}`;
+      const url = this.getFileUrl(key);
 
       this.logger.log(`File uploaded successfully to S3: ${key}`);
 
@@ -95,7 +107,7 @@ export class S3Service {
 
       await upload.done();
 
-      const url = `https://s3.${this.region}.amazonaws.com/${this.bucketName}/${key}`;
+      const url = this.getFileUrl(key);
 
       this.logger.log(`Buffer uploaded successfully to S3: ${key}`);
 
