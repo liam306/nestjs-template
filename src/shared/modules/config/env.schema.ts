@@ -12,6 +12,8 @@ export const envSchema = z.object({
 
   REDIS_HOST: z.string().nonempty(),
   REDIS_PORT: z.coerce.number().min(1),
+  REDIS_PASSWORD: z.string().optional(),
+  REDIS_DB: z.coerce.number().default(0),
 
   JWT_SECRET: z.string().nonempty(),
   JWT_EXPIRES_IN: z.string().nonempty(),
