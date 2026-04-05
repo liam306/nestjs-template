@@ -60,3 +60,5 @@ src/schema.gql
 
 # Sentry Config File
 .sentryclirc
+
+src/shared/modules/mail/templates/*.hbs.json

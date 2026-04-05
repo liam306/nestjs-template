@@ -1,0 +1,35 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Hello World Mail</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='container'>
+      <h1>Hello {{name}}!</h1>
+      <p>This is a test email from <strong>NestJS Template</strong>.</p>
+      <p>Welcome to our application!</p>
+      <hr />
+      <p style='font-size: 12px; color: #777;'>Sent via NestJS Mailer shared
+        module.</p>
+    </div>
+  </body>
+</html>
