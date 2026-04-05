@@ -19,7 +19,7 @@ export class MailService {
         },
       });
       this.logger.log(`Email sent successfully to ${email}`);
-    } catch (error) {
+    } catch (error: any) {
       this.logger.error(`Error sending email to ${email}`, error.stack);
       throw error;
     }
@@ -36,7 +36,7 @@ export class MailService {
         context: options.context,
       });
       this.logger.log(`Email sent successfully to ${options.to}`);
-    } catch (error) {
+    } catch (error: any) {
       this.logger.error(`Error sending email to ${options.to}`, error.stack);
       throw error;
     }

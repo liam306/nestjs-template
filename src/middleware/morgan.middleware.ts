@@ -1,5 +1,5 @@
 import { AuthenticatedRequest } from '@/shared/interfaces';
-import * as morgan from 'morgan';
+import morgan from 'morgan';
 
 morgan.token<AuthenticatedRequest>('username', (req) => {
   if (req.user && req.user.username) {
