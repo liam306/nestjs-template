@@ -4,14 +4,14 @@ import { FilterableField, IDField } from '@ptc-org/nestjs-query-graphql';
 @ObjectType()
 export abstract class BaseDTO {
   @IDField(() => ID)
-  id: number;
+  id!: number;
 
   @FilterableField(() => GraphQLISODateTime)
-  createdAt: Date;
+  createdAt!: Date;
 
   @FilterableField(() => GraphQLISODateTime)
-  updatedAt: Date;
+  updatedAt!: Date;
 
   @FilterableField(() => GraphQLISODateTime, { nullable: true })
-  deletedAt: Date | null;
+  deletedAt!: Date | null;
 }
