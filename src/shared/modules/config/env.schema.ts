@@ -18,6 +18,11 @@ export const envSchema = z.object({
 
   BASIC_AUTH_USER: z.string().nonempty(),
   BASIC_AUTH_PASSWORD: z.string().nonempty(),
+
+  AWS_S3_REGION: z.string().nonempty(),
+  AWS_S3_ACCESS_KEY_ID: z.string().nonempty(),
+  AWS_S3_SECRET_ACCESS_KEY: z.string().nonempty(),
+  AWS_S3_BUCKET_NAME: z.string().nonempty(),
 });
 
 export type EnvVars = z.infer<typeof envSchema>;
