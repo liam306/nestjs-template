@@ -45,7 +45,7 @@
     "class-validator": "^0.14.4",
     "compression": "^1.8.1",
     "express-basic-auth": "^1.2.1",
-    "graphql": "^16.13.2",
+    "graphql": "^16.14.0",
     "graphql-subscriptions": "^3.0.0",
     "handlebars": "^4.7.9",
     "helmet": "^8.1.0",
