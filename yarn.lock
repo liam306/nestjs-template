@@ -479,10 +479,10 @@
     "@smithy/types" "^4.14.1"
     tslib "^2.6.2"
 
-"@aws-sdk/lib-storage@^3.1042.0":
-  version "3.1042.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/lib-storage/-/lib-storage-3.1042.0.tgz#42e4faf98b376e1e369142843eb1a19287806b96"
-  integrity sha512-LTmyMaSwFOLQ7geoYbCRDoc2R73Qbc1uLaAVHAdmzhINIB0JlP2TZ9N17t8BLgfB1zFD3bjQRThf/fGC0vvMbg==
+"@aws-sdk/lib-storage@^3.1045.0":
+  version "3.1045.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/lib-storage/-/lib-storage-3.1045.0.tgz#112f948000a9cbf9aa9e1d38b33eb21aa4a19408"
+  integrity sha512-F7dp2ST/83Iz6JTMMmUYEXxg7R1JDewfvzJeWWiDTwe0vLsg67JTN7OsBe6G8DWYbLQ+EyPWkyc3oFnxOjCVfg==
   dependencies:
     "@smithy/middleware-endpoint" "^4.4.32"
     "@smithy/protocol-http" "^5.3.14"
