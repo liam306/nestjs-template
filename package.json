@@ -38,7 +38,7 @@
     "@ptc-org/nestjs-query-core": "^9.1.0",
     "@ptc-org/nestjs-query-graphql": "^9.4.0",
     "@ptc-org/nestjs-query-typeorm": "^9.4.0",
-    "@sentry/cli": "^3.4.2",
+    "@sentry/cli": "^3.4.3",
     "@sentry/nestjs": "^10.53.1",
     "bcryptjs": "^3.0.3",
     "class-transformer": "^0.5.1",
