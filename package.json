@@ -48,7 +48,7 @@
     "graphql": "^16.14.0",
     "graphql-subscriptions": "^3.0.0",
     "handlebars": "^4.7.9",
-    "helmet": "^8.1.0",
+    "helmet": "^8.2.0",
     "ioredis": "^5.10.1",
     "morgan": "^1.10.1",
     "nestjs-i18n": "^10.8.4",
