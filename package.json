@@ -50,7 +50,7 @@
     "handlebars": "^4.7.9",
     "helmet": "^8.2.0",
     "ioredis": "^5.11.0",
-    "morgan": "^1.10.1",
+    "morgan": "^1.11.0",
     "nestjs-i18n": "^10.8.4",
     "nodemailer": "^8.0.10",
     "passport": "^0.7.0",
