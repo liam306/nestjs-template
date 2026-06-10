@@ -451,13 +451,13 @@
     "@smithy/types" "^4.14.3"
     tslib "^2.6.2"
 
-"@aws-sdk/lib-storage@^3.1057.0":
-  version "3.1057.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/lib-storage/-/lib-storage-3.1057.0.tgz#021b7f2511900815c6f26918c50de5ff51e6ab2c"
-  integrity sha512-0LlXWaklL2LGBSJ6w3YwsJaFCR9yu57648aEyyIRLM5NT+rQ3Xbx0/pCsuM4fD+QJZhASMMAALAl/pdiN5B+FQ==
+"@aws-sdk/lib-storage@^3.1064.0":
+  version "3.1064.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/lib-storage/-/lib-storage-3.1064.0.tgz#5e38f4b6bddc8dedd3b856aaf3dc506d47e54894"
+  integrity sha512-dEUFZx29gRaKFlZB/7N1It8jVtaDY2x967s200xNnl//44Ak2/uK30OujL8tKzRwAz5M50/eNQozGw0jdES/pQ==
   dependencies:
-    "@smithy/core" "^3.24.5"
-    "@smithy/types" "^4.14.2"
+    "@smithy/core" "^3.24.6"
+    "@smithy/types" "^4.14.3"
     buffer "5.6.0"
     events "3.3.0"
     stream-browserify "3.0.0"
@@ -2408,7 +2408,7 @@
   dependencies:
     "@sinonjs/commons" "^3.0.1"
 
-"@smithy/core@^3.24.5", "@smithy/core@^3.24.6":
+"@smithy/core@^3.24.6":
   version "3.24.6"
   resolved "https://registry.yarnpkg.com/@smithy/core/-/core-3.24.6.tgz#72891bad85d577b2e43f30a8fc67adf36d577798"
   integrity sha512-wBXDRup6UU97VKyaiRo8AssnfStPtG0oAAfpq/bC0a1YYau8pM86YB4kM6ccoVi1mS8l/UHbn9oDM+7uozr/ug==
@@ -2460,7 +2460,7 @@
     "@smithy/types" "^4.14.3"
     tslib "^2.6.2"
 
-"@smithy/types@^4.14.2", "@smithy/types@^4.14.3":
+"@smithy/types@^4.14.3":
   version "4.14.3"
   resolved "https://registry.yarnpkg.com/@smithy/types/-/types-4.14.3.tgz#784e6d556231645744edf3fea85daaac9054eb40"
   integrity sha512-YupL0ZWmFtJexUN2cHzkvvF/b9pKrtAIfT1o7/oY/Ppu8IYeZ+lDPM5vZdQJaSeA132dJCqojjGC9NhXeF71VQ==
