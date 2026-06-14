@@ -71,19 +71,19 @@ export class AuthService {
     return user;
   }
 
-  async signin(user: UserEntity): PromiseResponse<SignInResponseDto> {
+  signin(user: UserEntity): PromiseResponse<SignInResponseDto> {
     const token = this.jwtService.sign({
       id: user.id,
       role: user.role,
       username: user.username,
     });
 
-    return {
+    return Promise.resolve({
       message: this.i18n.t('auth.signinSuccess'),
       data: {
         user,
         accessToken: token,
       },
-    };
+    });
   }
 }

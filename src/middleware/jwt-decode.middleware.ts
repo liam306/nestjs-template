@@ -1,7 +1,12 @@
-import { JwtPayload } from '@/modules/auth/interfaces';
 import { Injectable, NestMiddleware } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { NextFunction, Request, Response } from 'express';
+
+interface IJwtPayload {
+  id: string;
+  username: string;
+  role: string;
+}
 
 @Injectable()
 export class JwtDecodeMiddleware implements NestMiddleware {
@@ -14,7 +19,7 @@ export class JwtDecodeMiddleware implements NestMiddleware {
       const token = authHeader.substring(7);
 
       try {
-        const decoded = this.jwtService.decode(token) as JwtPayload;
+        const decoded = this.jwtService.decode<IJwtPayload>(token);
 
         if (decoded && typeof decoded === 'object') {
           req.user = {
@@ -23,7 +28,9 @@ export class JwtDecodeMiddleware implements NestMiddleware {
             role: decoded.role,
           };
         }
-      } catch (error) {}
+      } catch {
+        // Do nothing, the error will be handled by the auth guard
+      }
     }
 
     next();

@@ -19,8 +19,11 @@ export class MailService {
         },
       });
       this.logger.log(`Email sent successfully to ${email}`);
-    } catch (error: any) {
-      this.logger.error(`Error sending email to ${email}`, error.stack);
+    } catch (error) {
+      this.logger.error(
+        `Error sending email to ${email}`,
+        error instanceof Error ? error.stack : undefined,
+      );
       throw error;
     }
   }
@@ -36,8 +39,11 @@ export class MailService {
         context: options.context,
       });
       this.logger.log(`Email sent successfully to ${options.to}`);
-    } catch (error: any) {
-      this.logger.error(`Error sending email to ${options.to}`, error.stack);
+    } catch (error) {
+      this.logger.error(
+        `Error sending email to ${options.to}`,
+        error instanceof Error ? error.stack : undefined,
+      );
       throw error;
     }
   }

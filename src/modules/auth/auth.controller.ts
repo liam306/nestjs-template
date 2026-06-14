@@ -63,10 +63,10 @@ export class AuthController {
     statusCodes: [401, 500],
   })
   @Get('me')
-  async getMe(@User() user: UserEntity): PromiseResponse<UserEntity> {
-    return {
+  getMe(@User() user: UserEntity): PromiseResponse<UserEntity> {
+    return Promise.resolve({
       message: this.i18n.t('common.success'),
       data: user,
-    };
+    });
   }
 }

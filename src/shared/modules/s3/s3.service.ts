@@ -1,9 +1,5 @@
 import { ConfigService } from '@/shared/modules/config/config.service';
-import {
-  DeleteObjectCommand,
-  ObjectCannedACL,
-  S3Client,
-} from '@aws-sdk/client-s3';
+import { DeleteObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import { Upload } from '@aws-sdk/lib-storage';
 import { Injectable, Logger } from '@nestjs/common';
 import * as path from 'path';
@@ -67,7 +63,6 @@ export class S3Service {
           Key: key,
           Body: file.buffer,
           ContentType: file.mimetype,
-          ACL: 'public-read' as ObjectCannedACL,
         },
       });
 
@@ -101,7 +96,6 @@ export class S3Service {
           Key: key,
           Body: buffer,
           ContentType: contentType,
-          ACL: 'public-read' as ObjectCannedACL,
         },
       });
 

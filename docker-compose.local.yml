@@ -11,8 +11,6 @@ services:
       - nestjs-template_postgres:/var/lib/postgresql
     ports:
       - '${DATABASE_PORT:-5432}:5432'
-    networks:
-      - management_network
 
   redis:
     image: redis:8.0
@@ -22,13 +20,7 @@ services:
       - nestjs-template_redis:/data
     ports:
       - '${REDIS_PORT:-6379}:6379'
-    networks:
-      - management_network
 
 volumes:
   nestjs-template_postgres:
   nestjs-template_redis:
-
-networks:
-  management_network:
-    external: true
