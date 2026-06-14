@@ -47,7 +47,10 @@ async function bootstrap() {
     ['/api/docs'],
     basicAuth({
       users: {
-        [config.get('BASIC_AUTH_USER')!]: config.get('BASIC_AUTH_PASSWORD')!,
+        [config.get('BASIC_AUTH_USER', { infer: true })!]: config.get(
+          'BASIC_AUTH_PASSWORD',
+          { infer: true },
+        )!,
       },
       challenge: true,
     }),
@@ -55,8 +58,11 @@ async function bootstrap() {
 
   SwaggerModule.setup('api/docs', app, document);
 
-  const port = config.get('PORT', 3000);
+  const port = config.get('PORT', 3000, { infer: true });
   await app.listen(port);
   Logger.log(`🚀 Server is running on port ${port}`, 'Bootstrap');
 }
-bootstrap();
+bootstrap().catch((error) => {
+  Logger.error(`❌ Server failed to start: ${error}`, 'Bootstrap');
+  process.exit(1);
+});

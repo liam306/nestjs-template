@@ -8,7 +8,13 @@ import {
 } from '@nestjs/common';
 import { GqlExecutionContext } from '@nestjs/graphql';
 import { AuthGuard } from '@nestjs/passport';
+import { Request } from 'express';
 import { TranslationService } from '../modules/translation/translation.service';
+
+interface GqlContext {
+  req?: Request;
+  connectionParams?: Record<string, unknown>;
+}
 
 @Injectable()
 export class GqlAuthGuard extends AuthGuard('jwt') {
@@ -18,9 +24,11 @@ export class GqlAuthGuard extends AuthGuard('jwt') {
     super();
   }
 
-  getRequest(ctx: ExecutionContext) {
+  getRequest(
+    ctx: ExecutionContext,
+  ): Request | { headers: Record<string, unknown> } | undefined {
     const gqlCtx = GqlExecutionContext.create(ctx);
-    const context = gqlCtx.getContext();
+    const context = gqlCtx.getContext<GqlContext>();
     if (context?.req) return context.req;
     if (context?.connectionParams) return { headers: context.connectionParams };
     return context?.req;
@@ -53,6 +61,6 @@ export class GqlAuthGuard extends AuthGuard('jwt') {
       });
     }
 
-    return user as TUser;
+    return user;
   }
 }
