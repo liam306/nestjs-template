@@ -15,8 +15,8 @@ importers:
         specifier: ^3.1067.0
         version: 3.1068.0
       '@aws-sdk/lib-storage':
-        specifier: ^3.1064.0
-        version: 3.1068.0(@aws-sdk/client-s3@3.1068.0)
+        specifier: ^3.1069.0
+        version: 3.1069.0(@aws-sdk/client-s3@3.1068.0)
       '@nestjs-modules/mailer':
         specifier: ^2.3.6
         version: 2.3.6(@nestjs/common@11.1.26(class-transformer@0.5.1)(class-validator@0.14.4)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.26)(chokidar@4.0.3)(nodemailer@9.0.0)(svgo@4.0.1)(terser@5.48.0)(typescript@6.0.3)
@@ -475,11 +475,11 @@ packages:
     resolution: {integrity: sha512-lKj6aRSGbqLmpYmM24bY7a1Xmfcq2vkE3hv8CSPYfc1yCu0BPu/XEJ1L4Fm61MsU6ULLNSG8UGsffNoFUBjESA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/lib-storage@3.1068.0':
-    resolution: {integrity: sha512-BGUS3EXFe+y87odXsC5enyBv4z/QT3EDydv+iTe9hCUr57ndAXCfJbvcm3f+s3aHS5FUDL3WozaBAcrsNeVhyQ==}
+  '@aws-sdk/lib-storage@3.1069.0':
+    resolution: {integrity: sha512-i5XY2ZNaBOVXCHrmSe/4YG8Bl1X/qa/WjMbSF7DYXaN1F1x0Q4kQwce+HIYWym0S2/1ljm2aorul5bdU/k7fSA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
-      '@aws-sdk/client-s3': ^3.1068.0
+      '@aws-sdk/client-s3': ^3.1069.0
 
   '@aws-sdk/middleware-flexible-checksums@3.974.30':
     resolution: {integrity: sha512-OaIhub+3yTgfFWPzKO8OzOZFIMUoJaiS5v67y3spQg7SoULGoMx4jKVBbE+uhnzkiZXQ+rEDS0RqrK4/aD1yJw==}
@@ -6903,7 +6903,7 @@ snapshots:
       '@smithy/types': 4.14.4
       tslib: 2.8.1
 
-  '@aws-sdk/lib-storage@3.1068.0(@aws-sdk/client-s3@3.1068.0)':
+  '@aws-sdk/lib-storage@3.1069.0(@aws-sdk/client-s3@3.1068.0)':
     dependencies:
       '@aws-sdk/client-s3': 3.1068.0
       '@smithy/core': 3.24.7
