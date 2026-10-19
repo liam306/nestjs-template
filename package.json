@@ -36,7 +36,7 @@
     "@nestjs/platform-express": "^11.1.27",
     "@nestjs/swagger": "^11.4.4",
     "@nestjs/typeorm": "^11.0.1",
-    "@ptc-org/nestjs-query-core": "^9.1.0",
+    "@ptc-org/nestjs-query-core": "^10.0.3",
     "@ptc-org/nestjs-query-graphql": "^9.4.0",
     "@ptc-org/nestjs-query-typeorm": "^9.4.0",
     "@sentry/cli": "^3.5.0",
